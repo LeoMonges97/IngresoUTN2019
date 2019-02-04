@@ -5,14 +5,10 @@ function Mostrar()
     var nombre;
     var edad;
 
-    nombre = prompt ("Ingrese su Nombre");
-    edad = prompt ("Ingrese su Edad");
-
     nombre = document.getElementById("elNombre").value;
     edad = document.getElementById("laEdad").value;
 
-    alert ("Usted se llama " + nombre);
-    alert ("Y tiene " + edad);
+    alert ("Usted se llama " + nombre + " y tiene " + edad + " años");
 
     }
 
