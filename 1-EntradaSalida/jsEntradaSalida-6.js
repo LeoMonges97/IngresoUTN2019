@@ -8,8 +8,11 @@ var numb1;
 var numb2;
 var suma;
 
-numb1 = parseint (document.getElementById("numeroUno").value);
-numb1 = parseint (document.getElementById("numeroDos").value);
+numb1 = document.getElementById("numeroUno").value;
+numb1 = parseInt (numb1);
+
+numb2 = document.getElementById("numeroDos").value;
+numb2 = parseInt (numb2);
 
 suma = numb1 + numb2;
 
